@@ -1,88 +1,122 @@
 <!DOCTYPE html>
-<html>           
-  <head>                 
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">                 
-    <meta name="generator" content="PSPad editor, www.pspad.com">                 
-    <title>      Fair Trade Music               
-    </title>                 
-    <link rel="stylesheet" type="text/css" href="styles.css">        
-  </head>           
-  <body>           
-
+<html>                 
+  <head>                           
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">                           
+    <meta name="generator" content="PSPad editor, www.pspad.com">                           
+    <title>      Fair Trade Music                         
+    </title>                           
+    <link rel="stylesheet" type="text/css" href="styles.css">              
+  </head>                 
+  <body>             
 <script>
+var pom = 0;
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
 }
-
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft= "0";
-}
-</script>  
-    <div id="mySidenav" class="sidenav">         
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>         
-      <a href="#">About</a>         
-      <a href="#">Playlist</a>         
-      <a href="#">Artist</a>         
-      <a href="#">Favourites</a> </div>               
-      <div id="sidebutton" onclick="openNav()">&#9776; Menu
-      </div> 
-    <div id="main" >                 
-      <nav>      
-                        
-        <ul>                            
-          <li>                   
-          <a href="#">Registration</a>                   
-          </li>                            
-          <li>                   
-          <a href="#">Login</a>                   
-          </li>                            
-          <li>                   
-          <a href="#">Mission</a>                   
-          </li>                            
-          <li>                   
-          <a href="#">Interprets</a>                   
-          </li>                            
-          <li>                   
-          <a href="#">Upload</a>                   
-          </li>                            
-          <li>                   
-          <a href="#">Regulations</a>                   
-          </li>                            
-          <li>                   
-          <a href="#">Sponsors</a>                   
-          </li>                      
-        </ul>                
-      </nav>         <br /><br />      
-      <div id="content">          
-      <div id="bio">                    
-        <p>Bongani bongani bongani bongani bongani bongani bongani. Bongani bongani bongani bongani bongani bongani bongani.     Bongani bongani bongani bongani bongani bongani bongani. Bongani bongani bongani bongani bongani bongani bongani.     Bongani bongani bongani bongani bongani bongani bongani. Bongani bongani bongani bongani bongani bongani bongani.                
-        </p>                    
-        <p>    Bongani bongani bongani bongani bongani bongani bongani.     Bongani bongani bongani bongani bongani bongani bongani.                 
-        </p>                     
-        <p>    Bongani bongani bongani bongani bongani bongani bongani.     Bongani bongani bongani bongani bongani bongani bongani.                 
-        </p>                     
-        <p>    Bongani bongani bongani bongani bongani bongani bongani.     Bongani bongani bongani bongani bongani bongani bongani.                 
-        </p>                
-      </div>                
-      <div id="audio">                              
-        <div id="cdart">                        
-        </div>                      
-        <audio controls>                             
-          <source src="horse.ogg" type="audio/ogg">                                 
-            <source src="horse.mp3" type="audio/mpeg">      Your browser does not support the audio element.                      
-        </audio>        <br />               
-        <a href="#">          
-          <img height="60px" src="images/donate.png"></a>  
-          <a href="#"><img height="60px" src="images/Share-on-Facebook.png"></a>    <br>
+}  
+</script> 
+ <div id="header">
+        <h2>Bongani</h2>
+      </div>               
+    <div id="mySidenav" class="sidenav">                       
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>                       
+      <a href="#">About</a>                       
+      <a href="#">Playlist</a>                       
+      <a href="#">Artist</a>                       
+      <a href="#">Favourites</a>      
+    </div>                           
+    <div id="sidebutton" onclick="openNav()">&#9776; Menu            
+    </div>           
+    <div id="main" >   
+                               
+      <nav>                                                 
+        <ul>                                                  
+          <li>                                         
+          <a href="#">Registration</a>                                         
+          </li>                                                  
+          <li>                                         
+          <a href="#">Login</a>                                         
+          </li>                                                  
+          <li>                                         
+          <a href="#">Mission</a>                                         
+          </li>                                                  
+          <li>                                         
+          <a href="#">Interprets</a>                                         
+          </li>                                                  
+          <li>                                         
+          <a href="#">Upload</a>                                         
+          </li>                                                  
+          <li>                                         
+          <a href="#">Regulations</a>                                         
+          </li>                                                  
+          <li>                                         
+          <a href="#">Sponsors</a>                                         
+          </li>                                        
+        </ul>                              
+      </nav>         <br /><br />                    
+      <div id="content">                          
+        <div id="bio">                                        
+          <p>Bongani bongani bongani bongani bongani bongani bongani. Bongani bongani bongani bongani bongani bongani bongani.     Bongani bongani bongani bongani bongani bongani bongani. Bongani bongani bongani bongani bongani bongani bongani.     Bongani bongani bongani bongani bongani bongani bongani. Bongani bongani bongani bongani bongani bongani bongani.                                    
+          </p>                                        
+          <p>    Bongani bongani bongani bongani bongani bongani bongani.     Bongani bongani bongani bongani bongani bongani bongani.                                     
+          </p>                                         
+          <p>    Bongani bongani bongani bongani bongani bongani bongani.     Bongani bongani bongani bongani bongani bongani bongani.                                     
+          </p>                                         
+          <p>    Bongani bongani bongani bongani bongani bongani bongani.     Bongani bongani bongani bongani bongani bongani bongani.                                     
+          </p>                                
+        </div>                                
+        <div id="audio">                                                  
+          <div id="cdart">                                            
+          </div>                                          
+          <audio controls>                                                     
+            <source src="horse.ogg" type="audio/ogg">                                                             
+              <source src="horse.mp3" type="audio/mpeg">      Your browser does not support the audio element.                                          
+          </audio>        <br />                                   
+                       
+          <a href="#">            
+            <img height="60px" src="images/Share-on-Facebook.png"></a>               
+          <br>                     
           <!--<img height="80px"src="images/un.jpg">
-          <img height="80px"src="images/kytary.jpg">-->        
-      </div>             
-      <div id="ad">                
-        <img src="images/pizzabanner.png">           
-      </div>  
-      </div>       
-    </div>     
+                              <img height="80px"src="images/kytary.jpg">-->                           
+          <button onclick="move()" id="donate"><img height="60px" src="images/donate.png"> 
+          </button> 
+          <div id="myProgress">               
+            <div id="myBar">                   
+              <div id="label">10%               
+              </div>               
+            </div>          
+          </div>             
+          
+           
+<script>
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 10;
+  
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+      pom = 1;
+      document.getElementById("donate").innerHTML = '<img height="60px" src="images/Buy-Now.png"></a>';
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      document.getElementById("label").innerHTML = width * 1  + '%';
+      
+    }
+  }
+} 
+</script>                   
+        </div>                             
+        <div id="ad">                                    
+          <img src="images/pizzabanner.png">                           
+        </div>                
+      </div>                 
+    </div>           
   </body>
 </html>

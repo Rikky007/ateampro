@@ -4,11 +4,17 @@ body{
   
 }
 
+h2{
+  color: #4FD64F;
+  font-variant: small-caps;
+  
+}
 div {
-  margin: 1px;
+  //margin: 1px;
 }
 .clearfix {
     overflow: auto;
+    
 }
 a {
     text-decoration: none;
@@ -39,8 +45,9 @@ li a {
 }
 #audio {
     float: left;
-    overflow: auto;
-    
+    overflow: hidden;
+    //background-color: #4FD64F;
+    background-image: url("images/backg.jpg");
 }
 
 #cdart {
@@ -50,10 +57,12 @@ li a {
 }
 #bio {
      float: left;
-     width: 360px;
-    height: auto;
-    background-color: #4FD64F;
+     width: 460px;
+    min-height: 650px;
+    //background-color: #4FD64F;
+    background-image: url("images/backg.jpg");
     padding: 5px;
+    padding-left: 10px;
 }
 
 #ad {
@@ -64,6 +73,8 @@ li a {
   background-image: url("images/backb.jpg");
   background-color: #111;
 }
+
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -71,7 +82,7 @@ li a {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #4FD64F;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -81,7 +92,7 @@ li a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: black;
     display: block;
     transition: 0.3s
 }
@@ -112,4 +123,24 @@ li a {
 #sidebutton
 {
   font-size:24px;font-variant: small-caps;cursor:pointer;float:left;margin-top: 10px;margin-right: 5px;
+}
+#myProgress {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: #ddd;
+  overflow: visible;
+}
+
+#myBar {
+  position: absolute;
+  width: 10%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+
+#label {
+  text-align: center;
+  line-height: 30px;
+  color: white;
 }
