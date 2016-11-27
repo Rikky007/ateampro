@@ -1,7 +1,7 @@
 /* CSS Document */
 body{
   font-family: Verdana;
-  background-image: url("images/savana.jpg")
+  background-image: url("images/savana.jpg");
   
 }
 
@@ -59,6 +59,7 @@ li a {
     height: 150px;
   background-image: url("images/sound2.png");  
    background-position: center; 
+   
     overflow:hidden;
 }
 #bio {
