@@ -1,6 +1,7 @@
 /* CSS Document */
 body{
   font-family: Verdana;
+  background-image: url("images/savana.jpg")
   
 }
 
@@ -10,7 +11,7 @@ h2{
   
 }
 div {
-  //margin: 1px;
+  margin: 1px;
 }
 .clearfix {
     overflow: auto;
@@ -47,26 +48,33 @@ li a {
     float: left;
     overflow: hidden;
     //background-color: #4FD64F;
-    background-image: url("images/backg.jpg");
+    //opacity: 0.5;
+    //background-image: url("images/backg.jpg");
 }
 
 #cdart {
   background-image: url("images/bongani.jpg");
   width: 480px;
     height: 360px;
+    opacity:1;
 }
 #bio {
      float: left;
      width: 460px;
     min-height: 650px;
-    //background-color: #4FD64F;
-    background-image: url("images/backg.jpg");
+    opacity:0.75;
+    background-color: #4FD64F;
+    //background-image: url("images/backg.jpg");
     padding: 5px;
     padding-left: 10px;
 }
 
 #ad {
     float: left;
+}
+
+.social{
+
 }
 
 #content {
